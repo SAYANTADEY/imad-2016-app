@@ -15,20 +15,6 @@ var app = express();
 app.use(morgan('combined'));
 
 var articles = {
-    'article-one': {
-        title: 'Article One I Sayanta Dey',
-        heading: 'Article One',
-        date: 'Sep 5,2016',
-        content: `<p>
-                      This is the content of my first article. This is the content of my first article. This is the content of my first article. This is the content of my first article. This is the content of my first article. This is the content of my first article. This is the content of my first article.
-                  </p>
-                  <p>
-                      This is the content of my first article. This is the content of my first article. This is the content of my first article. This is the content of my first article. This is the content of my first article. This is the content of my first article. This is the content of my first article.
-                  </p>
-                  <p>
-                      This is the content of my first article. This is the content of my first article. This is the content of my first article. This is the content of my first article. This is the content of my first article. This is the content of my first article. This is the content of my first article.
-                  </p>`
-    },
     'article-two': {
         title: 'Article Two I Sayanta Dey',
         heading: 'Article Two',
