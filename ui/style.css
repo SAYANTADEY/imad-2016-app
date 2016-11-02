@@ -21,7 +21,8 @@ p {
 }
 
 #header {
-	margin:0 30px;
+	margin:0 1px;
+	float:right;
 }
 
 #bg {
