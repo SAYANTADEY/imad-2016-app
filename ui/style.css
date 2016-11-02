@@ -4,14 +4,14 @@ body {
 }
 
 .center {
+    text-align:center;
+}
+
+#nav {
     background:#06a;
 	padding:10px 20px;
 	text-align:right;
 	color:#f6dde3;
-}
-
-#nav {
-    text-align: right;
 }
 
 .text-big {
