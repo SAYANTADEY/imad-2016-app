@@ -18,6 +18,11 @@ body {
 	margin: 0 10px;
 }
 
+#nav a:visited, #nav a:link {
+	text-decoration:none;
+	color:#f6dde3;
+}
+
 .text-big {
     font-size: 300%;
 }
