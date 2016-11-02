@@ -4,7 +4,10 @@ body {
 }
 
 .center {
-    text-align: center;
+    background:#06a;
+	padding:10px 20px;
+	text-align:right;
+	color:#f6dde3;
 }
 
 #nav {
