@@ -36,3 +36,4 @@ submit.onclick = function () {
   request.open('GET', 'http://sayantadey.imad.hasura-app.io/submit-name?name=' + name, true);
   request.send(null);
 };
+
