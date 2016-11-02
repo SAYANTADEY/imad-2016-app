@@ -19,6 +19,10 @@ body {
 	color:#f6dde3;
 }
 
+#main-content {
+	margin:0 auto;
+}
+
 .text-big {
     font-size: 300%;
 }
