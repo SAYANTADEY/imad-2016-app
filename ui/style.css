@@ -29,6 +29,12 @@ body {
 	float:left;
 }
 
+#logo {
+	margin-bottom:20px;
+	font:normal 18px Georgia, serif;
+	color:#fa7393;
+}
+
 .text-big {
     font-size: 300%;
 }
