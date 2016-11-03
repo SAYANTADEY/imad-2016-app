@@ -28,6 +28,12 @@ p {
     text-align:right;
 }
 
+a:visited, a:link {
+	color:#a43b55;
+	text-decoration:underline;
+	background:none;
+}
+
 h1 {
 	color:#7a2e40;
 	margin:0 0 10px;
