@@ -19,6 +19,11 @@ p {
 	margin:0 1px;
 }
 
+#right-column {
+	width:270px;
+	float:right;
+}
+
 .right {
     text-align:right;
 }
