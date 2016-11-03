@@ -8,6 +8,13 @@ p {
 	padding:0;
 }
 
+#wrapper {
+	margin:0 auto;
+	width:632px;
+	border-left:1px solid #f0e9eb;
+	border-right:1px solid #f0e9eb;
+}
+
 .right {
     text-align:right;
 }
