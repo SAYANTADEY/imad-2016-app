@@ -7,6 +7,14 @@ body {
     text-align:right;
 }
 
+h1 {
+	color:#7a2e40;
+	margin:0 0 10px;
+	padding-bottom:10px;
+	font:normal 17px Georgia, serif;
+	border-bottom:1px solid #efece7;
+}
+
 .box {
 	background:#f7f7f7;
 	border:1px solid #f0e9eb;
