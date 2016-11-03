@@ -81,6 +81,12 @@ ul {
 	float:left;
 }
 
+.sidebar {
+	width:218px;
+	margin:0 auto;
+	padding:10px 25px;
+}
+
 #logo {
 	margin-bottom:20px;
 	font:normal 18px Georgia, serif;
