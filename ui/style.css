@@ -15,6 +15,10 @@ p {
 	border-right:1px solid #f0e9eb;
 }
 
+#header {
+	margin:0 1px;
+}
+
 .right {
     text-align:right;
 }
