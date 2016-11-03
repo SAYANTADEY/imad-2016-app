@@ -92,6 +92,11 @@ ul {
 	color:#f6dde3;
 }
 
+#nav a:hover {
+	text-decoration:underline;
+	color:#f6dde3;
+}
+
 #main-content {
 	margin:0 auto;
 }
