@@ -7,6 +7,12 @@ body {
     text-align:right;
 }
 
+.box {
+	background:#f7f7f7;
+	border:1px solid #f0e9eb;
+	padding:15px;
+}
+
 #nav {
 	background:#06a;
 	padding:10px 20px;
