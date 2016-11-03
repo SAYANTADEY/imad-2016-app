@@ -31,6 +31,11 @@ h1 {
 	border-bottom:1px solid #efece7;
 }
 
+ul {
+	padding:0;
+	margin:0 0 0 17px;
+}
+
 .box {
 	background:#f7f7f7;
 	border:1px solid #f0e9eb;
