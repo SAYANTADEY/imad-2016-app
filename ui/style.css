@@ -87,6 +87,11 @@ ul {
 	color:#f6dde3;
 }
 
+#nav a:visited, #nav a:link {
+	text-decoration:none;
+	color:#f6dde3;
+}
+
 #main-content {
 	margin:0 auto;
 }
