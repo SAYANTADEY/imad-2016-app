@@ -58,6 +58,10 @@ app.get('/about-me', function (req, res) {
     res.sendFile(path.join(__dirname, 'ui', 'about-me.html'));
 });
 
+app.get('/contact-me', function (req, res) {
+    res.sendFile(path.join(__dirname, 'ui', 'contact-me.html'));
+});
+
 var pool = new Pool(config);
 app.get('/test-db', function (req, res) {
     pool.query('SELECT * FROM test', function(err,result) {
