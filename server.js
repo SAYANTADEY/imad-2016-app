@@ -17,7 +17,7 @@ app.use(morgan('combined'));
 function createTemplate (data) {
     var title = data.title;
     var date = data.date;
-    var heading = data.heading;
+    var author = data.author;
     var content = data.content;
     var htmlTemplate = `
     <html>
@@ -33,12 +33,11 @@ function createTemplate (data) {
               <div>
                   <a href="/">Home</a>
               </div>
-              <hr/>
-              <h3>
-                  ${heading}
-              </h3>
               <div>
                   ${date.toDateString()}
+              </div>
+              <div>
+                 ${author}
               </div>
               <div>
                  ${content}
@@ -91,7 +90,7 @@ app.get('/submit-name', function (req, res) {
 });
 
 app.get('/blog/:articleName', function (req, res) {
-    pool.query("SELECT * FROM article WHERE title = $1", [req.params.articleName], function (err, result) {
+    pool.query("SELECT * FROM blog_post WHERE author = $1", [req.params.articleName], function (err, result) {
         if(err) {
            res.status(500).send(err.toString());
        } else {
