@@ -90,7 +90,7 @@ app.get('/submit-name', function (req, res) {
     res.send(JSON.stringify(names));
 });
 
-app.get('/articles/:articleName', function (req, res) {
+app.get('/blog', function (req, res) {
     pool.query("SELECT * FROM article WHERE title = $1", [req.params.articleName], function (err, result) {
         if(err) {
            res.status(500).send(err.toString());
